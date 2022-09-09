@@ -140,6 +140,23 @@ button {
 	font-size: 2.5rem;
 }
 
+/* ELEMENTI NEL MAIN - SECTION EXPLANATION */
+
+#section__write-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	background-color: #0c0633;
+	color: white;
+}
+
+#write-us__btn {
+	padding: 12px 14px;
+	margin-top: 30px;
+	border: none;
+}
 /* FOOTER */
 
 /* RESPONSIVE */
