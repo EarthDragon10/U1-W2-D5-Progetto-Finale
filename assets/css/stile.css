@@ -58,7 +58,7 @@ button {
 
 #header {
 	background-color: white;
-	box-shadow: #d3d3d3;
+	box-shadow: 5px 5px 5px #d3d3d3;
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 0;
