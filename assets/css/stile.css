@@ -17,6 +17,7 @@ body {
 
 h1 {
 	font-size: 4rem;
+	margin-bottom: 14px;
 }
 
 h2 {
@@ -33,6 +34,9 @@ button {
 	background-image: linear-gradient(90deg, #6cc1e2, #392f7a);
 }
 
+.text--uppercase {
+	text-transform: uppercase;
+}
 /* HEADER */
 
 #header {
@@ -64,6 +68,28 @@ button {
 	border: none;
 }
 /* MAIN */
+
+/* ELEMENTI NEL MAIN - SECTION INFO */
+
+#section__info {
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position-y: center;
+	color: white;
+	padding: 100px 0;
+	line-height: 1.2;
+}
+
+#container__info {
+	width: 55%;
+	margin: 0 auto;
+}
+
+#info__btn {
+	padding: 12px 14px;
+	border: 4px black solid;
+	margin-top: 30px;
+}
 
 /* FOOTER */
 
