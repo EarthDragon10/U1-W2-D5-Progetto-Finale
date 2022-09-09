@@ -14,3 +14,33 @@
 	display: flex;
 	gap: 60px;
 }
+
+/* SEZIONE PREZZI DEL CORSO */
+
+#section_prices {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0;
+}
+
+th,
+td {
+	padding: 20px 15px;
+}
+
+thead {
+	background-color: rgb(73, 152, 189);
+	color: white;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #d2dce7;
+}
+
+table td,
+table th {
+	border-right: 0.3px white dashed;
+}
