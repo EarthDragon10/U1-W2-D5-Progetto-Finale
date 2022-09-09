@@ -7,7 +7,7 @@ body {
 
 	font-family: "Fira Sans", sans-serif;
 	color: #000;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	line-height: 1.8;
 }
 
@@ -24,6 +24,12 @@ h2 {
 	font-size: 3.5rem;
 }
 
+h3 {
+	font-size: 2.5rem;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
 i {
 	color: #e42424;
 }
@@ -36,6 +42,10 @@ button {
 
 .text--uppercase {
 	text-transform: uppercase;
+}
+
+.text--centered {
+	text-align: center;
 }
 /* HEADER */
 
@@ -89,6 +99,45 @@ button {
 	padding: 12px 14px;
 	border: 4px black solid;
 	margin-top: 30px;
+}
+
+/* ELEMENTI NEL MAIN - SECTION EXPLANATION */
+
+#section__explanation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding: 40px 80px;
+}
+
+#section__first-part {
+	text-align: center;
+}
+
+#section__second-part {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 30px;
+}
+
+.articles-container {
+	width: 30%;
+}
+
+.subtitle--centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+	padding-bottom: 10px;
+}
+
+.section__i {
+	font-size: 2.5rem;
 }
 
 /* FOOTER */
