@@ -44,3 +44,15 @@ table td,
 table th {
 	border-right: 0.3px white dashed;
 }
+
+/* RESPONSIVE */
+
+/* TABLET */
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+}

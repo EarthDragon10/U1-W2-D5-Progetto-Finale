@@ -39,3 +39,15 @@ main {
 .info__box {
 	margin: 15px 0;
 }
+
+/* RESPONSIVE */
+
+/* TABLET */
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+}
