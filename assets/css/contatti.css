@@ -40,14 +40,46 @@ main {
 	margin: 15px 0;
 }
 
+#work-with-us__a {
+	text-decoration: none;
+	color: black;
+}
+
 /* RESPONSIVE */
 
 /* TABLET */
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
+	#section__contacts {
+		padding: 60px 40px;
+	}
+
+	#form__btn {
+		font-size: 2rem;
+	}
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 480px) {
+	#section__contacts {
+		padding: 60px 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#section__form {
+		width: 80%;
+	}
+
+	#section__info-address {
+		width: 100%;
+	}
+
+	.h3__style--mobile {
+		font-size: 1.6rem;
+		margin-bottom: 5px;
+	}
 }
